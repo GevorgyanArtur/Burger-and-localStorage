@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    /* max-width: 1140px; */
+    /* max-height: 1500px; */
+    margin: 0 auto;
+}
+
+.title{
+    /* border:1px solid black; */
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    background-color: aqua;
+}
+.logo{
+    padding: 25px;
+}
+
+.logo h1 > a{
+    color:grey;
+}
+.logo h1 > a:hover{
+    transition: .3s;
+    color: rgb(0, 0, 255);
+}
+
+
+.logo1 a{
+    padding: 5px;
+    color: grey;
+    transition: .3s;
+}
+
+.logo1 h2 > a:hover{
+    color: rgb(0, 119, 255);
+}
+.menus{
+    display: flex;
+    background-color: grey;
+    /* flex-direction: column; */
+}
+.cont{
+    background-color: rgb(61, 61, 61);
+    display: none;
+    width: 70%;
+}
+
+.menus > ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px;
+    /* border: 1px solid black; */
+    gap: 15px;
+}
+
+.menus ul > li > a{
+    display: flex;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 25px;
+    width: 300px;
+    align-items: center;
+    color: white;
+}
+
+
+.menus ul > li >a> i{
+    padding: 5px;
+}
+
+
+
+.menus ul > li > a:hover{
+    color: black;
+    transition: .3s;
+    background-color: white;
+}
+.lists{
+display: flex;
+background-color: aquamarine;
+    padding: 25px;
+}
+.lists ul{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+
+
+.lists ul > li > a{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    align-items: center;
+    color: white;
+    width: 300px;
+    justify-content: space-between;
+
+}
+
+.lists ul > li > a:hover{
+    color: black;
+    transition: .3s;
+    background-color: white;
+}
+
+.motivation{
+    display: flex;
+}
+
+.tasks{
+    display: flex;
+    gap: 35px;
+}
+.taskside li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.motivation p{
+    color: black;
+    width: 600px;
+}
+
+#myDay h2{
+    color: white;
+    
+}
+#myDay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+.pages{
+    min-height: 250px;
+}
+
+#burgercontent{
+    transform:scale(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.burger .page a{
+    display: flex;
+    border: 1px solid black;
+    /* margin: 25px; */
+    /* padding-bottom: 10px; */
+    border-radius: 25px;
+    align-items: center;
+    color: white;
+    width: 150px;
+    justify-content:center;
+}
+
+p{
+    border:1px solid black;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
